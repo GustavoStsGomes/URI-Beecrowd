@@ -13,6 +13,7 @@ public class Exercicio1006 {
         double a, b, c, MP;
         
         Locale.setDefault(Locale.US);
+        
         //realizando a leitura dos valores
         Scanner x = new Scanner(System.in);
         a = x.nextDouble();
