@@ -14,6 +14,7 @@ public class modeloBase {
         
         //realizando a leitura e alocação dos valores
         Scanner input = new Scanner(System.in);
+        input.close();
         
         //realizando a operação
         

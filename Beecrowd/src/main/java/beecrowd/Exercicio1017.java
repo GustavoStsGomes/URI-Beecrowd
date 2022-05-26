@@ -13,7 +13,9 @@ public class Exercicio1017 {
         // criando local para armazenar os valores
         int tempo, velocidade;
         double res;
-        String resultado;
+        
+        //lolizando para poder usar ponto ao invez de virgula
+        Locale.setDefault(Locale.US);
         
         //realizando a leitura e alocação dos valores
         Scanner input = new Scanner(System.in);
@@ -23,9 +25,6 @@ public class Exercicio1017 {
         
         //realizando a operação 
         res = (velocidade * tempo) / 12.0;
-        resultado = Double.toString(res);
-
-        
         
         //apresentando resultado
         System.out.printf("%.3f\n", res);
