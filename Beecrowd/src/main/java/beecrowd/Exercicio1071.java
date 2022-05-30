@@ -4,10 +4,40 @@
  */
 package beecrowd;
 
-/**
- *
- * @author Gustavo
- */
+import java.util.Scanner;
+
 public class Exercicio1071 {
+    
+    public static void main (String[] args){
+        // criando local para armazenar os valores
+        int x, y, inicio, fim, soma=0;
+        
+        //realizando a leitura e alocação dos valores
+        Scanner input = new Scanner(System.in);
+        x = input.nextInt();
+        y = input.nextInt();
+        input.close();
+        
+        //realizando a operação
+        //descobrindo o menor valor para correr laço
+        if (x < y){
+            inicio = x;
+            fim = y;
+            
+        }else {
+            inicio = y;
+            fim = x;
+            
+        }
+        for (int cont = inicio+1; cont < fim; cont ++){
+            if(cont % 2 != 0){
+                soma += cont;
+            }
+        }
+        
+        //apresentando resultado
+        System.out.printf("%d\n", soma);
+        
+    }
     
 }
