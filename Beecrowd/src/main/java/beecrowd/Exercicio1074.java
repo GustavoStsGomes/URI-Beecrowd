@@ -12,11 +12,9 @@ import java.util.Scanner;
  */
 public class Exercicio1074 {
     public static void main (String[] args){
-        // criando local para armazenar os valores
         int quantidade;
         int[] numeros;
         
-        //realizando a leitura e alocação dos valores
         Scanner input = new Scanner(System.in);
         quantidade = input.nextInt();
         numeros = new int[quantidade];
@@ -24,12 +22,10 @@ public class Exercicio1074 {
             numeros[cont] = input.nextInt();
         }
         input.close();
-        
-        //realizando a operação
-        //apresentando resultado
+
         for (int cont = 0; cont < quantidade; cont++){
             if (numeros[cont] == 0){
-                System.out.println("NULL\n");
+                System.out.println("NULL");
             }else if (numeros[cont] % 2 == 0){
                 if (numeros[cont] > 0){
                     System.out.println("EVEN POSITIVE");
@@ -42,8 +38,7 @@ public class Exercicio1074 {
                 }else{
                     System.out.println("ODD NEGATIVE");
                 }
-            }
-            
+            }            
         }
     }
 }
