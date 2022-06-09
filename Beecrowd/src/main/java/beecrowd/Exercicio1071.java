@@ -29,7 +29,10 @@ public class Exercicio1071 {
             fim = x;
             
         }
+        
+        //passando por todos os numeros do menor ao maior
         for (int cont = inicio+1; cont < fim; cont ++){
+            //somando os impares
             if(cont % 2 != 0){
                 soma += cont;
             }
