@@ -9,7 +9,7 @@ public class modeloBase {
     public static void main (String[] args){
         // criando local para armazenar os valores
         
-        //lolizando para poder usar ponto ao invez de virgula
+        //localizando para poder usar ponto ao invez de virgula
         Locale.setDefault(Locale.US);
         
         //realizando a leitura e alocação dos valores
