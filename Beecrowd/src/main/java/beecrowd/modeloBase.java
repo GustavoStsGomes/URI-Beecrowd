@@ -19,6 +19,7 @@ public class modeloBase {
         //realizando a operação
         
         //apresentando resultado
-        
+        //System.out.printf();
+        //System.out.println();
     }
 }
