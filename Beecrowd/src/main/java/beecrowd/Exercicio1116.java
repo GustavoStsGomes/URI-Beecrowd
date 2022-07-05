@@ -13,30 +13,24 @@ public class Exercicio1116 {
         int x, y, quantidade;
         double resultado;
         
-        //lolizando para poder usar ponto ao invez de virgula
+        //localizando para poder usar ponto ao invez de virgula
         Locale.setDefault(Locale.US);
         
         //realizando a leitura e alocação dos valores
-        //realizando a operação
-        //apresentando resultado
         Scanner input = new Scanner(System.in);
         quantidade = input.nextInt();
         for (int cont = 0; cont < quantidade; cont++){
             x = input.nextInt();
             y = input.nextInt();
             
+            //realizando a operação
             if(y == 0){
-                System.out.println("divisao impossivel");
+                System.out.println("divisao impossivel");//apresentando resultado
             }else{
                 resultado = (double) x / y; 
-                System.out.printf("%.1f\n", resultado);
+                System.out.printf("%.1f\n", resultado);//apresentando resultado
             }
         }
-        input.close();
-        
-        
-        
-        
-        
+        input.close();    
     }
 }
