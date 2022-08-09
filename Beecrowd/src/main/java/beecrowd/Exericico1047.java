@@ -35,7 +35,7 @@ public class Exericico1047 {
             if (mInicio > mFim) {
                 totalM = 60 + mFim - mInicio;
                 if (hInicio == hFim) {
-                    totalH = 24 + h - 1;
+                    totalH = 24 + totalH - 1;
                 } else {
                     totalH = totalH - 1;
                 }
