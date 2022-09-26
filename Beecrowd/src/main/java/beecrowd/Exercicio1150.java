@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Gustavo
  */
-public class Execicio1150 {
+public class Exercicio1150 {
     public static void main (String[] args){
         // criando local para armazenar os valores
         int x, z, soma = 0, contador = 0;
